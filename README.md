@@ -36,8 +36,8 @@ sudo apt-get install graphviz
 ### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone git@github.com:gsdev215/Cyoa_Editor.git
+cd Cyoa_Editor
 
 ```
 
