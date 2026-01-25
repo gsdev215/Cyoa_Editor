@@ -1,0 +1,6 @@
+streamlit
+pillow
+lupa
+graphviz
+customtkinter
+zstandard
