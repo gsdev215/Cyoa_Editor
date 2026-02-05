@@ -298,7 +298,7 @@ class CYOAMakerApplication:
                 # Load project data
                 metadata, player_data, story_map, Emoji_Schema = load_cyoa_file(filename)
                 self.metadata = Metadata(**metadata)
-                print("Loaded metadata:", self.metadata._asdict(),metadata)
+                # print("Loaded metadata:", self.metadata._asdict(),metadata)
                 self.player_data = player_data
                 self.story_map = story_map
                 self.emoji_schema.current_schema = self.emoji_schema.json_to_text(Emoji_Schema)
